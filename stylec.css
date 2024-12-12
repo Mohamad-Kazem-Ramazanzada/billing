@@ -1,0 +1,145 @@
+@font-face {
+  font-family: Montserrat-VariableFont_wght;
+  src: url(../Font/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  font-family: Montserrat-VariableFont_wght;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 100px;
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.logo img {
+  width: 50px;
+  height: 32px;
+}
+.logo p {
+  font-weight: 700;
+  font-size: 34px;
+}
+nav ul {
+  list-style: none;
+  width: 430px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  font-weight: 500;
+}
+li a:link {
+  text-decoration: none;
+}
+li a:active {
+  color: red;
+}
+li a:hover {
+  color: black;
+}
+li a:visited {
+  color: black;
+}
+.cta-btns {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.cta-btns button {
+  border-style: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.cta-btns button img {
+  width: 28px;
+  height: 28px;
+}
+.backimg {
+  height: 316px;
+  background-image: url("./Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  gap: 20px;
+}
+.backimg img {
+  width: 77px;
+  height: 77px;
+}
+.container-1 {
+  width: 1440px;
+  height: 1429px;
+}
+.container-2 {
+  width: 1242px;
+  height: 1314px;
+  top: 479px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  display: flex;
+  gap: 1px;
+}
+.container-3 {
+  width: 608px;
+  height: 1314px;
+  padding: 20px;
+  display: grid;
+  justify-content: space-between;
+}
+.container-4 {
+  width: 608px;
+  height: 789px;
+  margin-top: 25px;
+}
+.container-5 {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-weight: 700;
+}
+#colo {
+  color: #b88e2f;
+}
+.container-6 {
+  display: flex;
+  gap: 20px;
+}
+.container-6 input {
+  width: 200px;
+  height: 50px;
+}
+.container-7 {
+  width: 553px;
+  height: 616px;
+  display: grid;
+  justify-content: space-between;
+}
+.size {
+  width: 420px;
+  height: 50px;
+}
+.but {
+  align-items: center;
+}
+#bt {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  left: 176.5px;
+}
